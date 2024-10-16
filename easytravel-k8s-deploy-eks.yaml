@@ -223,6 +223,7 @@ spec:
     targetPort: 8080
   selector:
     easytravel-tier: easytravel-frontend
+    easytravel-type: classic
   sessionAffinity: None
   type: LoadBalancer
 ---
