@@ -220,7 +220,7 @@ spec:
   externalTrafficPolicy: Cluster
   ports:
   - protocol: TCP
-    targetPort: 8080
+    targetPort: 80
   selector:
     easytravel-tier: easytravel-frontend
   sessionAffinity: None
@@ -238,7 +238,7 @@ spec:
   externalTrafficPolicy: Cluster
   ports:
   - protocol: TCP
-    targetPort: 8080
+    targetPort: 80
   selector:
     easytravel-tier: easytravel-frontend
     easytravel-type: angular
